@@ -18,7 +18,12 @@ module decade_tb;
 
     // Reference model
     logic [3:0] exp_count;
-
+    
+    initial begin
+        $dumpfile("wave.vcd");
+        $dumpvars(0, decade_tb);
+    end
+    
     initial begin
         // Initial values
         clk = 0;
