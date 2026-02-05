@@ -9,7 +9,7 @@ module decade_tb;
     always #5 clk = ~clk;
 
     // DUT
-    decade_counter dut (
+    decade_rtl dut (
         .clk   (clk),
         .rst   (rst),
         .en    (en),
