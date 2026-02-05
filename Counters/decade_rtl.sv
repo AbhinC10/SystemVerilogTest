@@ -1,4 +1,4 @@
-module decade_counter (
+module decade_rtl (
     input  logic       clk,
     input  logic       rst,     // active-high reset
     input  logic       en,
